@@ -7,9 +7,9 @@ function [  ] = send_notice( msg )
 % send notice to my email
 
 setpref('Internet','SMTP_Server','smtps.kuleuven.be');
-setpref('Internet','E_mail','u0101103@kuleuven.be');
-setpref('Internet','SMTP_Username','u0101103@kuleuven.be');
-setpref('Internet','SMTP_Password','YUhu2017');
+setpref('Internet','E_mail','xxxxxxxx@kuleuven.be'); % enter the email address
+setpref('Internet','SMTP_Username','xxxxx@kuleuven.be'); % enter the user name
+setpref('Internet','SMTP_Password','xxxxxx'); % enter your password
 sendmail('huangyunan@gmail.com','Matlab message', msg);
 
 
